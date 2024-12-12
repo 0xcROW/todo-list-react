@@ -1,0 +1,25 @@
+.header {
+    background-color:dodgerblue;
+    color: #eaeaea;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 2rem;
+    margin: 0 auto;
+
+    div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    div:last-child {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        transform: translateY(50%);
+    }
+    
+}

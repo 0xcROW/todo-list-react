@@ -1,10 +1,11 @@
 import React from 'react';
+import { Header } from './components/Header/Header';
+import './styles/global.css';
 
 function App() {
   return (
     <>
-      <h1>App.tsx</h1>
-      <p>This is the root component of the app.</p>
+      <Header />
     </>
   );
 }
